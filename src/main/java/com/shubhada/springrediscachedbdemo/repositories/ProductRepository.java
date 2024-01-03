@@ -10,7 +10,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-@Primary
 public class ProductRepository {
     private static final String HASH_KEY ="Product" ;
     @Autowired
